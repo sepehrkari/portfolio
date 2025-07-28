@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sepehr's Portfolio</title>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+ <body class="bg-white text-gray-800">
+
+    <!-- Navbar      
+     پس‌زمینه	#F9F1F0)	
+     پس زمینه دوم و جداول #FADCD9
+متن اصلی	
+رنگ تأکیدی	text-yellow-400	
+text-emerald-400
+لینک‌ها/دکمه‌ها	bg-[#F87171] با hover:bg-[#EF4444]
+  -->
+    <nav class="bg-[#F9F1F0] shadow fixed w-full z-10">
+      <div class="container mx-auto flex justify-between items-center px-4 py-4">
+        <h1 class="text-xl font-bold">Sepehr's Portfolio</h1>
+        <ul class="flex gap-6">
+          <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+          <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+          <li><a href="#about" class="hover:text-blue-500">About</a></li>
+          <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gray-800 pt-24">
+      <div class="text-center px-4">
+        <h2 class="text-4xl md:text-6xl font-bold mb-4 text-[#F9FAFB]">Hi, I'm Sepehr</h2>
+        <p class="text-lg md:text-xl text-[#FADCD9] mb-6">A Creative Web Designer & Developer</p>
+        <a href="#portfolio" class="bg-[#F79489] text-white px-6 py-3 rounded hover:bg-[#F57162] transition">View Portfolio</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-semibold text-center mb-12">My Work</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Project Card -->
+          <div class="shadow-lg rounded overflow-hidden">
+            <img src="src/images/Screenshot 2025-07-28 001538.png" alt="Project" class="w-full" />
+            <div class="p-4">
+              <h4 class="text-xl font-semibold">Project One</h4>
+              <p class="text-gray-600">A site introducing the best games in the world.</p>
+            </div>
+          </div>
+          <!-- Repeat as needed -->
+          <div class="shadow-lg rounded overflow-hidden">
+            <img src="src/images/Screenshot 2025-07-28 002357.png" alt="Project" class="w-full h-7/12" />
+            <div class="p-4">
+              <h4 class="text-xl font-semibold">Project Two</h4>
+              <p class="text-gray-600">A wedding site for couples who are about to get married.</p>
+            </div>
+          </div>
+          <div class="shadow-lg rounded overflow-hidden">
+            <img src="src/images/Screenshot 2025-07-28 003222.png" alt="Project" class="w-full" />
+            <div class="p-4">
+              <h4 class="text-xl font-semibold">Project Three</h4>
+              <p class="text-gray-600">A site for web designer to get their needed templates</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-[#FADCD9]">
+      <div class="container mx-auto px-4 md:flex md:items-center gap-10">
+        <div class="md:w-3/12 mb-8 md:mb-0">
+          <img src="src/images/photo20012499879.jpg" alt="Profile" class="rounded-full mx-auto md:mx-0" />
+        </div>
+        <div class="md:w-1/2">
+          <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+          <p class="text-gray-700 mb-4">
+            I'm a passionate web developer with almost 1 year of experience crafting modern websites.
+          </p>
+          <p class="text-gray-700">
+            I specialize in Tailwind CSS, React, and performance-optimized design. Let's build something great together!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#F9F1F0]">
+      <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-semibold text-center mb-8">Get In Touch</h3>
+        <form class="max-w-2xl mx-auto space-y-6">
+          <input type="text" placeholder="Your Name" class="w-full border px-4 py-3 rounded" />
+          <input type="email" placeholder="Your Email" class="w-full border px-4 py-3 rounded" />
+          <textarea placeholder="Your Message" rows="5" class="w-full border px-4 py-3 rounded"></textarea>
+          <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+      <div class="flex items-center justify-center flex-col ">
+        <div class="flex justify-center mt-8 space-x-12 ">
+        <a href="https://www.instagram.com/_sphr.k/" class=" ">
+          <img src="src/images/20087062091556105709-128.png">
+        </a>
+        <a href="https://t.me/sphr-kari">
+          <img src="src/images/1766858341556105723-128.png">
+        </a>
+        </div>
+        <div class="flex justify-center mt-6">
+          <p class="" style="word-spacing: 15px;">
+          09022928882     |     sepehrkarii@gmail.com
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#FADCD9] text-center py-6 text-gray-600">
+      &copy; 2025 MyPortfolio. All rights reserved.
+    </footer>
+
+  </body>
+</html>
